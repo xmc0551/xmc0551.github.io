@@ -1,375 +1,1130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=gbk"></meta></head><body><style>html,body,div,p{margin:0;padding:0}
-         body{font-size:14px;font-family:"microsoft yahei";background-color:#ffffff}
-         table{border-collapse:collapse;border-spacing:0;table-layout:fixed}
-         th,td{font-size:12px;padding:0}
-         a{text-decoration:none}
-         img{border:0 none}
-         .chead{width:734px}
-         .chead .logo{width:434px;height:90px}
-         .chead .txt{width:150px;height:90px}
-         .blue{text-decoration:none;color:#3c3d5d}
-         .column{width:734px;line-height:28px;border:1px solid #dedede}
-         .column .hbox{width:125px;height:154px}
-         .column .head{display:block;background-color:#fafafa}
-         .column .box{width:100%;background-color:#ffffff;border-top:2px solid #f2f3f5}
-         .column .box1{width:100%;word-wrap:break-word;color:#ffffff;background-color:#3f4160}
-         .column .box2{width:100%;background-color:#f8f9fa}
-         .column .tba{width:702px;padding:0 15px 15px}
-         .column .tbb{width:702px;padding:0 15px}
-         .column .tb1{width:682px;line-height:28px;color:#333333;word-break:break-all;padding:0 10px}
-         .column .tb2{width:331px;padding:0 10px}
-         .column .tb3{width:682px;padding:15px 10px 15px 0}
-         .column .gray,.column .gray2{color:#999999;word-break:break-all}
-         .column .gray2{color:#666666}
-         .column .plate1,.column .plate2{width:342px;height:54px;font-size:16px;font-weight:bold;color:#818ba3}
-         .column .plate1{width:682px;padding:0 25px}
-         .column .plate1 .f16{font-size:14px;font-weight:normal;color:#333333}
-         .column .plate1 .f12{font-size:12px;font-weight:normal;color:#999999}
-         .column .keys,.column .keys2{width:85px;line-height:28px;color:#666666}
-         .column .keys2{width:100px}
-         .column .txt1,.column .txt2,.column .txt3{width:597px;line-height:28px;color:#333333;word-break:break-all}
-         .column .txt2{width:246px}
-         .column .txt3{font-size:14px;font-weight:bold}
-         .column .txt4{width:240px;color:#ffffff;word-break:break-all}
-         .column .infr{width:587px;color:#ffffff;table-layout:auto}
-         .column .vam,.column .grcha{vertical-align:middle;margin-left:5px}
-         .column .box1 .vam{margin-right:5px;margin-left:0}
-         .column .name{font-size:24px;padding-bottom:18px}
-         .column .icard{color:#a1a3ae;padding-bottom:18px}
-         .column .con{border-top:1px dotted #ddd}
-         .column .pr20{width:165px;padding-right:5px}
-         .column .time{width:120px;line-height:28px;color:#666666;padding-left:10px}
-         .column .rtbox{width:557px;line-height:28px;color:#333333;padding:0 10px 0 5px;word-break:break-all}
-         .column .hai,.column .guan{line-height:18px;font-size:12px;color:#ffffff;vertical-align:text-top;margin-left:5px;padding:1px 3px;background-color:#3cbe7f;border-radius:2px}
-         .column .guan{background-color:#ff9f20}
-         .column .tag{display:inline-block;word-break:break-all;#display:inline;#zoom:1}
-         .column .all{color:#666;padding:10px 10px;background-color:#fafafa}
-         .column .tit{width:682px;height:40px;color:#666666;padding:0 10px;background-color:#f5f5f5}
-         .column .p15{padding:15px 0}
-         .column .p5{display:inline-block;color:#666666;padding:0 5px;#display:inline;#zoom:1}
-         .column .cell .skill{width:120px;font-size:14px;font-weight:bold;text-align:right;padding-right:5px}
-.column .cell .skbg,.column .cell .skco{display:inline-block;width:206px;height:18px;line-height:18px;font-size:12px;color:#ffffff;vertical-align:top;margin-top:6px;background-color:#dddddd;border-radius:20px;#display:inline;#zoom:1}
-         .column .cell .skco{width:196px;font-style:normal;margin-top:0;padding-left:10px;background-color:#ff9f20;z-index:3}
-         .column .sl .skco{width:147px}
-         .column .lh .skco{width:98px}
-         .column .yb .skco{width:49px}
-         .column .fbox strong{font-size:14px;font-weight:bold}
-         .column .cha{font-size:12px;font-weight:normal;color:#2d64b3;margin-left:5px}
-         .column .cha:hover{color:#ff6000}
-         .column .email{width:265px;color:#ffffff}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+</head>
+<body>
+<style>html, body, div, p {
+    margin: 0;
+    padding: 0
+}
 
-         .eng td,.eng .txt3,.eng .fbox strong{font-family:"Arial"}
-         .eng .txt1,.eng .rtbox,.eng .phd{width:557px;font-family:"Arial";line-height:28px}
-         .eng .txt2{width:206px}
-         .eng .txt4{width:145px}
-         .eng .cell .txt3{width:120px}
-         .eng .keys{width:110px;text-align:right;padding-right:15px}
-         .eng .pr20 .keys{width:50px}
-         .eng .keys2{width:80px}
-         .eng .phd{padding-left:135px}
-         .eng .time{width:110px;text-align:right;padding-right:10px}
-         .eng .email{width:170px} </style><table cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" class="column"><tbody><tr><td valign="top"><table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box1"><tbody><tr>
-<td class="hbox" align="middle"><img src="http://img01.51jobcdn.com/im/2016/resume/man.png" width="85" height="104" class="head"></td>
-<td><table cellspacing="0" cellpadding="0" border="0" class="infr"><tbody>
-<tr>
-<td colspan="2" class="name">������</td>
-<td align="right" class="icard">
-                    ID:355658982</td>
-</tr>
+body {
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    background-color: #ffffff
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed
+}
+
+th, td {
+    font-size: 12px;
+    padding: 0
+}
+
+a {
+    text-decoration: none
+}
+
+img {
+    border: 0 none
+}
+
+.chead {
+    width: 734px
+}
+
+.chead .logo {
+    width: 434px;
+    height: 90px
+}
+
+.chead .txt {
+    width: 150px;
+    height: 90px
+}
+
+.blue {
+    text-decoration: none;
+    color: #3c3d5d
+}
+
+.column {
+    width: 734px;
+    line-height: 28px;
+    border: 1px solid #dedede
+}
+
+.column .hbox {
+    width: 125px;
+    height: 154px
+}
+
+.column .head {
+    display: block;
+    background-color: #fafafa
+}
+
+.column .box {
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 2px solid #f2f3f5
+}
+
+.column .box1 {
+    width: 100%;
+    word-wrap: break-word;
+    color: #ffffff;
+    background-color: #3f4160
+}
+
+.column .box2 {
+    width: 100%;
+    background-color: #f8f9fa
+}
+
+.column .tba {
+    width: 702px;
+    padding: 0 15px 15px
+}
+
+.column .tbb {
+    width: 702px;
+    padding: 0 15px
+}
+
+.column .tb1 {
+    width: 682px;
+    line-height: 28px;
+    color: #333333;
+    word-break: break-all;
+    padding: 0 10px
+}
+
+.column .tb2 {
+    width: 331px;
+    padding: 0 10px
+}
+
+.column .tb3 {
+    width: 682px;
+    padding: 15px 10px 15px 0
+}
+
+.column .gray, .column .gray2 {
+    color: #999999;
+    word-break: break-all
+}
+
+.column .gray2 {
+    color: #666666
+}
+
+.column .plate1, .column .plate2 {
+    width: 342px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #818ba3
+}
+
+.column .plate1 {
+    width: 682px;
+    padding: 0 25px
+}
+
+.column .plate1 .f16 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333
+}
+
+.column .plate1 .f12 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999
+}
+
+.column .keys, .column .keys2 {
+    width: 85px;
+    line-height: 28px;
+    color: #666666
+}
+
+.column .keys2 {
+    width: 100px
+}
+
+.column .txt1, .column .txt2, .column .txt3 {
+    width: 597px;
+    line-height: 28px;
+    color: #333333;
+    word-break: break-all
+}
+
+.column .txt2 {
+    width: 246px
+}
+
+.column .txt3 {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.column .txt4 {
+    width: 240px;
+    color: #ffffff;
+    word-break: break-all
+}
+
+.column .infr {
+    width: 587px;
+    color: #ffffff;
+    table-layout: auto
+}
+
+.column .vam, .column .grcha {
+    vertical-align: middle;
+    margin-left: 5px
+}
+
+.column .box1 .vam {
+    margin-right: 5px;
+    margin-left: 0
+}
+
+.column .name {
+    font-size: 24px;
+    padding-bottom: 18px
+}
+
+.column .icard {
+    color: #a1a3ae;
+    padding-bottom: 18px
+}
+
+.column .con {
+    border-top: 1px dotted #ddd
+}
+
+.column .pr20 {
+    width: 165px;
+    padding-right: 5px
+}
+
+.column .time {
+    width: 120px;
+    line-height: 28px;
+    color: #666666;
+    padding-left: 10px
+}
+
+.column .rtbox {
+    width: 557px;
+    line-height: 28px;
+    color: #333333;
+    padding: 0 10px 0 5px;
+    word-break: break-all
+}
+
+.column .hai, .column .guan {
+    line-height: 18px;
+    font-size: 12px;
+    color: #ffffff;
+    vertical-align: text-top;
+    margin-left: 5px;
+    padding: 1px 3px;
+    background-color: #3cbe7f;
+    border-radius: 2px
+}
+
+.column .guan {
+    background-color: #ff9f20
+}
+
+.column .tag {
+    display: inline-block;
+    word-break: break-all;
+    #display: inline;
+    #zoom: 1
+}
+
+.column .all {
+    color: #666;
+    padding: 10px 10px;
+    background-color: #fafafa
+}
+
+.column .tit {
+    width: 682px;
+    height: 40px;
+    color: #666666;
+    padding: 0 10px;
+    background-color: #f5f5f5
+}
+
+.column .p15 {
+    padding: 15px 0
+}
+
+.column .p5 {
+    display: inline-block;
+    color: #666666;
+    padding: 0 5px;
+    #display: inline;
+    #zoom: 1
+}
+
+.column .cell .skill {
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px
+}
+
+.column .cell .skbg, .column .cell .skco {
+    display: inline-block;
+    width: 206px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #ffffff;
+    vertical-align: top;
+    margin-top: 6px;
+    background-color: #dddddd;
+    border-radius: 20px;
+    #display: inline;
+    #zoom: 1
+}
+
+.column .cell .skco {
+    width: 196px;
+    font-style: normal;
+    margin-top: 0;
+    padding-left: 10px;
+    background-color: #ff9f20;
+    z-index: 3
+}
+
+.column .sl .skco {
+    width: 147px
+}
+
+.column .lh .skco {
+    width: 98px
+}
+
+.column .yb .skco {
+    width: 49px
+}
+
+.column .fbox strong {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.column .cha {
+    font-size: 12px;
+    font-weight: normal;
+    color: #2d64b3;
+    margin-left: 5px
+}
+
+.column .cha:hover {
+    color: #ff6000
+}
+
+.column .email {
+    width: 265px;
+    color: #ffffff
+}
+
+.eng td, .eng .txt3, .eng .fbox strong {
+    font-family: "Arial"
+}
+
+.eng .txt1, .eng .rtbox, .eng .phd {
+    width: 557px;
+    font-family: "Arial";
+    line-height: 28px
+}
+
+.eng .txt2 {
+    width: 206px
+}
+
+.eng .txt4 {
+    width: 145px
+}
+
+.eng .cell .txt3 {
+    width: 120px
+}
+
+.eng .keys {
+    width: 110px;
+    text-align: right;
+    padding-right: 15px
+}
+
+.eng .pr20 .keys {
+    width: 50px
+}
+
+.eng .keys2 {
+    width: 80px
+}
+
+.eng .phd {
+    padding-left: 135px
+}
+
+.eng .time {
+    width: 110px;
+    text-align: right;
+    padding-right: 10px
+}
+
+.eng .email {
+    width: 170px
+} </style>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" class="column">
+<tbody>
 <tr>
 <td valign="top">
-<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y1.png" width="20" height="20">Ŀǰ�����ҹ���</td>
-<td valign="top">
-<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y2.png" width="20" height="20">15618941090</td>
-<td valign="top"><table cellspacing="0" cellpadding="0" border="0" class="email"><tbody><tr>
-<td valign="top" width="25"><img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y3.png" width="20" height="20"></td>
-<td valign="top" class="txt4">15255123718@qq.com</td>
-</tr></tbody></table></td>
-</tr>
-<tr><td valign="top" colspan="3"><p><img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y4.png" width="20" height="20">��<span class="p5">|</span>23 �� (1993/04/26)<span class="p5">|</span>�־�ס�Ϻ�<span class="p5">|</span>2�깤������
-                    </p></td></tr>
-</tbody></table></td>
-</tr></tbody></table>
-<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box2"><tbody><tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="tb2"><table cellspacing="0" cellpadding="0" border="0">
-<thead style="height:0"><tr>
-<td valign="top" class="keys"></td>
-<td valign="top" class="txt2"></td>
-</tr></thead>
-<tbody>
-<tr><td colspan="2" class="plate2">�������</td></tr>
-<tr>
-<td valign="top" class="keys">ְλ��</td>
-<td valign="top" class="txt2">��Ʒ����</td>
-</tr>
-<tr>
-<td valign="top" class="keys">��˾��</td>
-<td valign="top" class="txt2">�°������ɷ����޹�˾</td>
-</tr>
-<tr>
-<td valign="top" class="keys">��ҵ��</td>
-<td valign="top" class="txt2">���������</td>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box1">
+    <tbody>
+    <tr>
+        <td class="hbox" align="middle"><img src="http://img01.51jobcdn.com/im/2016/resume/man.png" width="85"
+                                             height="104" class="head"></td>
+        <td>
+            <table cellspacing="0" cellpadding="0" border="0" class="infr">
+                <tbody>
+                <tr>
+                    <td colspan="2" class="name">夏明成</td>
+                    <td align="right" class="icard">
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y1.png" width="20" height="20">目前正在找工作
+                    </td>
+                    <td valign="top">
+                        <img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y2.png" width="20" height="20">15618941090
+                    </td>
+                    <td valign="top">
+                        <table cellspacing="0" cellpadding="0" border="0" class="email">
+                            <tbody>
+                            <tr>
+                                <td valign="top" width="25"><img class="vam"
+                                                                 src="http://img01.51jobcdn.com/im/2016/resume/y3.png"
+                                                                 width="20" height="20"></td>
+                                <td valign="top" class="txt4">15255123718@qq.com</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" colspan="3"><p><img class="vam"
+                                                         src="http://img01.51jobcdn.com/im/2016/resume/y4.png"
+                                                         width="20" height="20">男<span class="p5">|</span>23 岁
+                        (1993/04/26)<span class="p5">|</span>现居住上海<span class="p5">|</span>2年工作经验
+                    </p></td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box2">
+    <tbody>
+    <tr>
+        <td class="tba">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr>
+                    <td valign="top" class="tb2">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <thead style="height:0">
+                            <tr>
+                                <td valign="top" class="keys"></td>
+                                <td valign="top" class="txt2"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td colspan="2" class="plate2">最近工作</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="keys">职位：</td>
+                                <td valign="top" class="txt2">产品经理</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="keys">公司：</td>
+                                <td valign="top" class="txt2">德邦物流股份有限公司</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="keys">行业：</td>
+                                <td valign="top" class="txt2">计算机软件</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td valign="top" class="tb2">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <thead style="height:0">
+                            <tr>
+                                <td valign="top" class="keys"></td>
+                                <td valign="top" class="txt2"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td colspan="2" class="plate2">最高学历/学位</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="keys">专业：</td>
+                                <td valign="top" class="txt2">计算机网络</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="keys">学校：</td>
+                                <td valign="top" class="txt2">安徽农业大学</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="keys">学历/学位：</td>
+                                <td valign="top" class="txt2">本科</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+    <tbody>
+    <tr>
+        <td class="plate1">
+            目前年收入
+                <span>&nbsp;15万元
+                </span><span class="f12">（包含基本工资、补贴、奖金、股权收益等）</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="tba">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr>
+                    <td class="tb1">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr></tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+    <tbody>
+    <tr>
+        <td class="plate1">求职意向</td>
+    </tr>
+    <tr>
+        <td class="tba">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr>
+                    <td class="tb1" colspan="2">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <thead style="height:0">
+                            <tr>
+                                <td valign="top" class="keys"></td>
+                                <td valign="top" class="txt1"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">个人标签：</td>
+                                <td valign="top" class="txt1">
+                                    <span class="tag">开发转产品&nbsp;</span><span class="tag">用户调研&nbsp;</span><span
+                                        class="tag">产品设计&nbsp;</span><span class="tag">数据分析&nbsp;</span><span
+                                        class="tag">团队管理</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tb2" valign="top">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">期望薪资：</td>
+                                <td valign="top" class="txt2">15000-19999
+                                    元/月
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="tb2" valign="top">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">地点：</td>
+                                <td valign="top" class="txt2"><span class="tag">上海</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tb2" valign="top">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">职能：</td>
+                                <td valign="top" class="txt2"><span class="tag">产品经理/主管</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="tb2" valign="top">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">行业：</td>
+                                <td valign="top" class="txt2">
+                                    <span class="tag">互联网/电子商务&nbsp;</span><span class="tag">计算机软件</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tb2" valign="top">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">工作类型：</td>
+                                <td valign="top" class="txt2">全职</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="tb2" valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="tb1" colspan="2">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <thead style="height:0">
+                            <tr>
+                                <td valign="top" class="keys"></td>
+                                <td valign="top" class="txt1"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="keys">自我评价：</td>
+                                <td valign="top" class="txt1">个人能力：擅长需求分析、移动端&#x20;/&#x20;web端交互设计、业务流程设计、产品规划及用户研究;<br>擅长技能：熟悉Axure、Visio、Project、ProcessOn等常用工具及软件架构开发技术;<br>性格特征：逻辑性强、性格开朗、善于沟通、执行力强、具备团队凝聚力;<br>经验概述：具备产品设计经验、项目开发经验、团队管理经验;
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+    <tbody>
+    <tr>
+        <td class="plate1">工作经验</td>
+    </tr>
+    <tr>
+        <td class="tbb">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td class="p15">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2016/8-至今</td>
+                                <td valign="top" class="rtbox">
+                                    <strong class="txt3">产品经理</strong><span class="p5">|</span><span>IT事业部</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="phd tb1" colspan="2">
+                                    <span>德邦物流股份有限公司</span><span class="gray">&nbsp;[4个月]
+                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="phd tb1 gray2" colspan="2">计算机软件<span class="p5">|</span>10000人以上<span
+                                        class="p5">|</span>民营公司
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">工作描述：</td>
+                                            <td valign="top" class="txt1">1、研究相关仓储与供应链信息化产品，挖掘与把握目标客户的需求；<br>2、负责产品规划、业务流程设计、功能设计、交互设计、产品优化等工作；<br>3、研究客户供应链模式，研究市场和用户需求，输出产品需求、原型、流程、交互设计文档；<br>4、负责相关产品开发项目周期和进度把控，确保对产品开发至最终上线运营，对进度质量负责；<br>5、负责跨部门协调和沟通，推动UI、开发、测试、运维等人员紧密合作达成产品目标；<br>6、跟踪分析产品上线后的运营数据，定期对自身产品及行业、竞争对手等进行数据分析，评估、优化用户体验和功能；<br>7、对所负责的产品进行用户行为数据监测、性能跟踪、数据分析、提出产品优化方案。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p15 con">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2014/7-2016/8</td>
+                                <td valign="top" class="rtbox">
+                                    <strong class="txt3">软件开发工程师、产品经理</strong><span
+                                        class="p5">|</span><span>云平台、公共安全事业部</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="phd tb1" colspan="2">
+                                    <span>科大讯飞股份有限公司</span><span class="gray">&nbsp;[2年1个月]
+                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="phd tb1 gray2" colspan="2">计算机软件<span class="p5">|</span>1000-5000人<span
+                                        class="p5">|</span>上市公司
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">工作描述：</td>
+                                            <td valign="top" class="txt1">1、依据公司战略规划，进行大客户需求调研、挖掘与评审；<br>2、调研竞品运营模式，设计第三方对接方案；<br>3、负责产品功能设计、交互设计，形成产品需求文档、设计规范、低保真原型设计以及产品推广方案；<br>4、协调团队资源，推动UI、开发、测试、运维、运营等人员紧密合作达成产品目标；<br>5、配合市场人员，设计产品化项目解决方案，落地实施交付。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+    <tbody>
+    <tr>
+        <td class="plate1">项目经验</td>
+    </tr>
+    <tr>
+        <td class="tba">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td class="p15">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2016/8-至今</td>
+                                <td valign="top" class="rtbox">
+                                    <strong>德邦物流仓储与供应链项目</strong>&nbsp;<span class="guan">已关联</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">所属公司：</td>
+                                            <td valign="top" class="txt1">德邦物流股份有限公司</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">项目描述：</td>
+                                            <td valign="top" class="txt1">
+                                                德邦物流仓储与供应链项目在立项初期，旨在承接大客户仓储需求与物流体系需求，将客户的业务需求接入到物流与供应链系统。初期加入到项目中，深入客户调研，收集并优化客户需求，提出了智能分拣、仓库室内地图、微型仓库等业务场景，旨打造区域微型仓库，基于大数据挖掘分析区域内消费者购物行为，预测消费者将要消费的商品并提前投放到附近仓库，配合智能仓库，共享最后一公里配送体系，提升物流响应速度，增强德邦物流竞争力，系列计划基本得到领导和客户认可，纳入项目战略规划方案。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">责任描述：</td>
+                                            <td valign="top" class="txt1">
+                                                在本项目中本人承担产品经理角色。完成了整个项目的需求调研与产品设计工作，并参与到开发与测试等环节中。<br>1、搜集用户使用场景，确定仓储供应链产品业务流程；<br>2、通过用户使用场景分析，结合竞品，确定产品需求与产品定位；<br>3、绘制产品低保真原型，制作交互设计规范及其他需求设计文档；<br>4、参与技术架构，推动迭代开发，分阶段实施项目交付；<br>5、产品质量与版本管理，负责产品分版本灰度上线。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p15 con">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2015/6-2016/8</td>
+                                <td valign="top" class="rtbox">
+                                    <strong>安徽省公安厅警务云项目&#x20;&amp;&#x20;上海公安局技侦923项目</strong>&nbsp;<span class="guan">已关联</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">所属公司：</td>
+                                            <td valign="top" class="txt1">科大讯飞股份有限公司</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">项目描述：</td>
+                                            <td valign="top" class="txt1">
+                                                安徽省公安厅警务云与上海公安局技侦项目是公安部门在人工智能领域的重大尝试，采用先进的语音图像识别和数据挖掘技术，建立反恐维稳网上作战信息化平台。通过分析大众人群敏感数据，计算人员关系追踪人员活动轨迹，标记并关注重点人员社会关系网，在事前、事中和事后遏制犯罪行为的发生。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">责任描述：</td>
+                                            <td valign="top" class="txt1">
+                                                随着与政府部门的深入合作，开始加入到公共安全事业部，投入到公安项目中，在其中担任产品经理的职务。由于上海项目需求紧急、业务量大、机密性强，因此加入项目组后开始常驻上海客户现场，几乎完全处于封闭式的开发环境下，阻力重重；在项目初期需求不明确（双方都只有战略框架层的产品方向）、数据混乱（同时对接七家以上数据服务商）、业务复杂、公司资源投入紧张的情况下，带队全力投入到从项目立项到产品上线的整个过程中，从需求分析、场景功能设计、数据层设计到产品规划、产品开发迭代全程主导实施，由于规划合理、方案完备，得到安徽省公安厅高度认可，随后几乎将上海项目完全迁移到安徽项目中，完成产品化工作。本项目中工作职责梳理如下：<br>1、依据公司战略规划，进行客户需求调研、挖掘与评审，输出用户需求；<br>2、与第三方公司沟通协作，制定数据服务生产-消费体系标准解决方案；<br>3、分析用户使用场景与目标，分解产品功能模块，形成需求用例；<br>4、设计web端&#x20;/&#x20;移动端产品低保真原型，与客户沟通反复迭代设计，形成设计文档；<br>5、协调团队资源，推动UI、开发、测试、运维、运营等人员紧密合作达成产品目标；<br>6、推动实施运维人员进行项目上线并完成项目交付；<br>7、对客户产品使用意见进行搜集和积累，分析提炼出产品改进的方向和细节提升产品易用性和用户体验；
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p15 con">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2015/2-2015/6</td>
+                                <td valign="top" class="rtbox">
+                                    <strong>讯飞语音云开放平台项目</strong>&nbsp;<span class="guan">已关联</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">所属公司：</td>
+                                            <td valign="top" class="txt1">科大讯飞股份有限公司</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">项目描述：</td>
+                                            <td valign="top" class="txt1">
+                                                讯飞开放平台作为全球首个开放的智能交互技术服务平台，以“云+端”的形式向开发者和合作商提供语音合成、语音识别、语音唤醒、语义理解、人脸识别、个性化彩铃、移动应用分析等多项服务。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">责任描述：</td>
+                                            <td valign="top" class="txt1">
+                                                随着DMP项目并入开放平台，本人也参与到开放平台项目在其中担任产品助理的职位，主要工作职责是对接C端用户（大多为企业开发负责人），收集用户需求，分析整理出有价值的产品需求，并协调引擎组、平台组资源共同实现需求，构建平台生态系统，提升用户粘性。后期逐渐过渡到与政府部门的合作，为政府部门定制体系化的产品解决方案。本项目中工作职责梳理如下：<br>1、对接市场人员，整理产品市场需求和业务需求，确定产品定义与平台业务流；<br>2、对接用户，整理用户需求，划分用户角色，设计产品功能，确定应用系统使用场景；<br>3、参与系统架构设计，完善概要设计和详细设计说明书，进行产品的开发；<br>4、通过论坛QQ群等渠道搜集用户反馈，更新迭代产品。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p15 con">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2014/7-2015/2</td>
+                                <td valign="top" class="rtbox">
+                                    <strong>讯飞输入法DMP项目</strong>&nbsp;<span class="guan">已关联</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">所属公司：</td>
+                                            <td valign="top" class="txt1">科大讯飞股份有限公司</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">项目描述：</td>
+                                            <td valign="top" class="txt1">
+                                                讯飞输入法DMP平台依托输入法庞大的用户数据库和强大的大数据分析能力，通过分析用户喜好与行为，有针对性地向目标受众推送广告内容，实现基于用户的移动营销，讯飞输入法DMP平台于2015年初整体并入讯飞开放平台。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" class="keys">责任描述：</td>
+                                            <td valign="top" class="txt1">
+                                                本人在该项目担任软件开发工程师的职位，主要工作是基于已有的平台编写代码构建学习模型。在一线接触大量用户培养了对产品的感觉，能够通过用户使用产品的数据，分析出产品功能缺陷和冗余设计，形成方案反馈产品组。本项目中工作职责梳理如下：<br>1、参与设计并开发云平台对外基础服务接口；<br>2、收集前端用户反馈需求，调整产品需求方案设计；<br>3、与大客户合作，提供个性化技术解决方案。
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" class="box">
+    <tbody>
+    <tr>
+        <td class="plate1">教育经历</td>
+    </tr>
+    <tr>
+        <td class="tba">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td class="p15">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top" class="time">2010/9-2014/6</td>
+                                <td valign="top" class="rtbox"><strong>安徽农业大学</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="tb1" colspan="2">本科<span class="p5">|</span>计算机网络</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+    <tbody>
+    <tr>
+        <td class="plate1">
+            技能特长
+            <span class="f12">（包括IT技能、语言能力、证书、成绩、培训经历）</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="tbb">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr>
+                    <td class="tit">技能/语言</td>
+                </tr>
+                <tr>
+                    <td class="p15">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">MS&#x20;WORD</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">Axure</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">Java</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">MS&#x20;Powerpoint</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">数据分析</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">MS&#x20;Project</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">MS&#x20;VISIO</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="tb2 cell sl" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="skill"><strong class="txt3">MS&#x20;Excel</strong></td>
+                                            <td valign="top"><span class="skbg"><span class="skco">熟练</span></span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</td>
 </tr>
 </tbody>
-</table></td>
-<td valign="top" class="tb2"><table cellspacing="0" cellpadding="0" border="0">
-<thead style="height:0"><tr>
-<td valign="top" class="keys"></td>
-<td valign="top" class="txt2"></td>
-</tr></thead>
-<tbody>
-<tr><td colspan="2" class="plate2">���ѧ��/ѧλ</td></tr>
-<tr>
-<td valign="top" class="keys">רҵ��</td>
-<td valign="top" class="txt2">���������</td>
-</tr>
-<tr>
-<td valign="top" class="keys">ѧУ��</td>
-<td valign="top" class="txt2">����ũҵ��ѧ</td>
-</tr>
-<tr>
-<td valign="top" class="keys">ѧ��/ѧλ��</td>
-<td valign="top" class="txt2">����</td>
-</tr>
-</tbody>
-</table></td>
-</tr></tbody></table></td></tr></tbody></table>
-<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
-<tr><td class="plate1">
-                Ŀǰ������
-                <span>&nbsp;15��Ԫ
-                </span><span class="f12">�������������ʡ����������𡢹�Ȩ����ȣ�</span>
-</td></tr>
-<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="tb1"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr></tr></tbody></table></td></tr></tbody></table></td></tr>
-</tbody></table>
-<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
-<tr><td class="plate1">��ְ����</td></tr>
-<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0">
-<thead style="height:0"><tr>
-<td valign="top" class="keys"></td>
-<td valign="top" class="txt1"></td>
-</tr></thead>
-<tbody><tr>
-<td valign="top" class="keys">���˱�ǩ��</td>
-<td valign="top" class="txt1">
-<span class="tag">����ת��Ʒ&nbsp;</span><span class="tag">�û�����&nbsp;</span><span class="tag">��Ʒ���&nbsp;</span><span class="tag">���ݷ���&nbsp;</span><span class="tag">�Ŷӹ���</span>
-</td>
-</tr></tbody>
-</table></td></tr>
-<tr>
-<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����н�ʣ�</td>
-<td valign="top" class="txt2">15000-19999
-                                            Ԫ/��
-                                          </td>
-</tr></tbody></table></td>
-<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">�ص㣺</td>
-<td valign="top" class="txt2"><span class="tag">�Ϻ�</span></td>
-</tr></tbody></table></td>
-</tr>
-<tr>
-<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">ְ�ܣ�</td>
-<td valign="top" class="txt2"><span class="tag">��Ʒ����/����</span></td>
-</tr></tbody></table></td>
-<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">��ҵ��</td>
-<td valign="top" class="txt2">
-<span class="tag">������/��������&nbsp;</span><span class="tag">���������</span>
-</td>
-</tr></tbody></table></td>
-</tr>
-<tr>
-<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">�������ͣ�</td>
-<td valign="top" class="txt2">ȫְ</td>
-</tr></tbody></table></td>
-<td class="tb2" valign="top">&nbsp;</td>
-</tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0">
-<thead style="height:0"><tr>
-<td valign="top" class="keys"></td>
-<td valign="top" class="txt1"></td>
-</tr></thead>
-<tbody><tr>
-<td valign="top" class="keys">�������ۣ�</td>
-<td valign="top" class="txt1">�����������ó�����������ƶ���&#x20;/&#x20;web�˽�����ơ�ҵ��������ơ���Ʒ�滮���û��о�;<br>�ó����ܣ���ϤAxure��Visio��Project��ProcessOn�ȳ��ù��߼������ܹ���������;<br>�Ը��������߼���ǿ���Ը��ʡ����ڹ�ͨ��ִ����ǿ���߱��Ŷ�������;<br>����������߱���Ʒ��ƾ��顢��Ŀ�������顢�Ŷӹ�������;</td>
-</tr></tbody>
-</table></td></tr>
-</tbody></table></td></tr>
-</tbody></table>
-<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
-<tr><td class="plate1">��������</td></tr>
-<tr><td class="tbb"><table cellspacing="0" cellpadding="0" border="0">
-<tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2016/8-����</td>
-<td valign="top" class="rtbox">
-<strong class="txt3">��Ʒ����</strong><span class="p5">|</span><span>IT��ҵ��</span>
-</td>
-</tr>
-<tr><td class="phd tb1" colspan="2">
-<span>�°������ɷ����޹�˾</span><span class="gray">&nbsp;[4����]
-                    </span>
-</td></tr>
-<tr><td class="phd tb1 gray2" colspan="2">���������<span class="p5">|</span>10000������<span class="p5">|</span>��Ӫ��˾</td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����������</td>
-<td valign="top" class="txt1">1���о���زִ��빩Ӧ����Ϣ����Ʒ���ھ������Ŀ��ͻ�������<br>2�������Ʒ�滮��ҵ��������ơ�������ơ�������ơ���Ʒ�Ż��ȹ�����<br>3���о��ͻ���Ӧ��ģʽ���о��г����û����������Ʒ����ԭ�͡����̡���������ĵ���<br>4��������ز�Ʒ������Ŀ���ںͽ��Ȱѿأ�ȷ���Բ�Ʒ����������������Ӫ���Խ�����������<br>5������粿��Э���͹�ͨ���ƶ�UI�����������ԡ���ά����Ա���ܺ�����ɲ�ƷĿ�ꣻ<br>6�����ٷ�����Ʒ���ߺ����Ӫ���ݣ����ڶ�������Ʒ����ҵ���������ֵȽ������ݷ������������Ż��û�����͹��ܣ�<br>7����������Ĳ�Ʒ�����û���Ϊ���ݼ�⡢���ܸ��١����ݷ����������Ʒ�Ż�������</td>
-</tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2014/7-2016/8</td>
-<td valign="top" class="rtbox">
-<strong class="txt3">������������ʦ����Ʒ����</strong><span class="p5">|</span><span>��ƽ̨��������ȫ��ҵ��</span>
-</td>
-</tr>
-<tr><td class="phd tb1" colspan="2">
-<span>�ƴ�Ѷ�ɹɷ����޹�˾</span><span class="gray">&nbsp;[2��1����]
-                    </span>
-</td></tr>
-<tr><td class="phd tb1 gray2" colspan="2">���������<span class="p5">|</span>1000-5000��<span class="p5">|</span>���й�˾</td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����������</td>
-<td valign="top" class="txt1">1�����ݹ�˾ս�Թ滮�����д�ͻ�������С��ھ�������<br>2�����о�Ʒ��Ӫģʽ����Ƶ������Խӷ�����<br>3�������Ʒ������ơ�������ƣ��γɲ�Ʒ�����ĵ�����ƹ淶���ͱ���ԭ������Լ���Ʒ�ƹ㷽����<br>4��Э���Ŷ���Դ���ƶ�UI�����������ԡ���ά����Ӫ����Ա���ܺ�����ɲ�ƷĿ�ꣻ<br>5������г���Ա����Ʋ�Ʒ����Ŀ������������ʵʩ������</td>
-</tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-</table></td></tr>
-</tbody></table>
-<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
-<tr><td class="plate1">��Ŀ����</td></tr>
-<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0">
-<tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2016/8-����</td>
-<td valign="top" class="rtbox">
-<strong>�°������ִ��빩Ӧ����Ŀ</strong>&nbsp;<span class="guan">�ѹ���</span>
-</td>
-</tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">������˾��</td>
-<td valign="top" class="txt1">�°������ɷ����޹�˾</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">��Ŀ������</td>
-<td valign="top" class="txt1">�°������ִ��빩Ӧ����Ŀ��������ڣ�ּ�ڳнӴ�ͻ��ִ�������������ϵ���󣬽��ͻ���ҵ��������뵽�����빩Ӧ��ϵͳ�����ڼ��뵽��Ŀ�У�����ͻ����У��ռ����Ż��ͻ�������������ּܷ𡢲ֿ����ڵ�ͼ��΢�Ͳֿ��ҵ�񳡾���ּ��������΢�Ͳֿ⣬���ڴ������ھ���������������߹�����Ϊ��Ԥ�������߽�Ҫ���ѵ���Ʒ����ǰͶ�ŵ������ֿ⣬������ֿܲ⣬�������һ����������ϵ������������Ӧ�ٶȣ���ǿ�°�������������ϵ�мƻ������õ��쵼�Ϳͻ��Ͽɣ�������Ŀս�Թ滮������</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����������</td>
-<td valign="top" class="txt1">�ڱ���Ŀ�б��˳е���Ʒ������ɫ�������������Ŀ������������Ʒ��ƹ����������뵽��������ԵȻ����С�<br>1���Ѽ��û�ʹ�ó�����ȷ���ִ���Ӧ����Ʒҵ�����̣�<br>2��ͨ���û�ʹ�ó�����������Ͼ�Ʒ��ȷ����Ʒ�������Ʒ��λ��<br>3�����Ʋ�Ʒ�ͱ���ԭ�ͣ�����������ƹ淶��������������ĵ���<br>4�����뼼���ܹ����ƶ������������ֽ׶�ʵʩ��Ŀ������<br>5����Ʒ������汾�����������Ʒ�ְ汾�Ҷ����ߡ�</td>
-</tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2015/6-2016/8</td>
-<td valign="top" class="rtbox">
-<strong>����ʡ��������������Ŀ&#x20;&amp;&#x20;�Ϻ������ּ���923��Ŀ</strong>&nbsp;<span class="guan">�ѹ���</span>
-</td>
-</tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">������˾��</td>
-<td valign="top" class="txt1">�ƴ�Ѷ�ɹɷ����޹�˾</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">��Ŀ������</td>
-<td valign="top" class="txt1">����ʡ���������������Ϻ������ּ�����Ŀ�ǹ����������˹�����������ش��ԣ������Ƚ�������ͼ��ʶ��������ھ�������������ά��������ս��Ϣ��ƽ̨��ͨ������������Ⱥ�������ݣ�������Ա��ϵ׷����Ա��켣����ǲ���ע�ص���Ա����ϵ��������ǰ�����к��º���Ʒ�����Ϊ�ķ�����</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����������</td>
-<td valign="top" class="txt1">�������������ŵ������������ʼ���뵽������ȫ��ҵ����Ͷ�뵽������Ŀ�У������е��β�Ʒ������ְ�������Ϻ���Ŀ���������ҵ�����󡢻�����ǿ����˼�����Ŀ���ʼ��פ�Ϻ��ͻ��ֳ���������ȫ���ڷ��ʽ�Ŀ��������£��������أ�����Ŀ����������ȷ��˫����ֻ��ս�Կ�ܲ�Ĳ�Ʒ���򣩡����ݻ��ң�ͬʱ�Խ��߼��������ݷ����̣���ҵ���ӡ���˾��ԴͶ����ŵ�����£�����ȫ��Ͷ�뵽����Ŀ�����Ʒ���ߵ����������У����������������������ơ����ݲ���Ƶ���Ʒ�滮����Ʒ��������ȫ������ʵʩ�����ڹ滮�����������걸���õ�����ʡ�������߶��Ͽɣ���󼸺����Ϻ���Ŀ��ȫǨ�Ƶ�������Ŀ�У���ɲ�Ʒ������������Ŀ�й���ְ���������£�<br>1�����ݹ�˾ս�Թ滮�����пͻ�������С��ھ�����������û�����<br>2�����������˾��ͨЭ�����ƶ����ݷ�������-������ϵ��׼���������<br>3�������û�ʹ�ó�����Ŀ�꣬�ֽ��Ʒ����ģ�飬�γ�����������<br>4�����web��&#x20;/&#x20;�ƶ��˲�Ʒ�ͱ���ԭ�ͣ���ͻ���ͨ����������ƣ��γ�����ĵ���<br>5��Э���Ŷ���Դ���ƶ�UI�����������ԡ���ά����Ӫ����Ա���ܺ�����ɲ�ƷĿ�ꣻ<br>6���ƶ�ʵʩ��ά��Ա������Ŀ���߲������Ŀ������<br>7���Կͻ���Ʒʹ����������Ѽ��ͻ��ۣ�������������Ʒ�Ľ��ķ����ϸ��������Ʒ�����Ժ��û����飻</td>
-</tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2015/2-2015/6</td>
-<td valign="top" class="rtbox">
-<strong>Ѷ�������ƿ���ƽ̨��Ŀ</strong>&nbsp;<span class="guan">�ѹ���</span>
-</td>
-</tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">������˾��</td>
-<td valign="top" class="txt1">�ƴ�Ѷ�ɹɷ����޹�˾</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">��Ŀ������</td>
-<td valign="top" class="txt1">Ѷ�ɿ���ƽ̨��Ϊȫ���׸����ŵ����ܽ�����������ƽ̨���ԡ���+�ˡ�����ʽ�򿪷��ߺͺ������ṩ�����ϳɡ�����ʶ���������ѡ��������⡢����ʶ�𡢸��Ի����塢�ƶ�Ӧ�÷����ȶ������</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����������</td>
-<td valign="top" class="txt1">����DMP��Ŀ���뿪��ƽ̨������Ҳ���뵽����ƽ̨��Ŀ�����е��β�Ʒ������ְλ����Ҫ����ְ���ǶԽ�C���û������Ϊ��ҵ���������ˣ����ռ��û����󣬷����������м�ֵ�Ĳ�Ʒ���󣬲�Э�������顢ƽ̨����Դ��ͬʵ�����󣬹���ƽ̨��̬ϵͳ�������û�ճ�ԡ������𽥹��ɵ����������ŵĺ�����Ϊ�������Ŷ�����ϵ���Ĳ�Ʒ�������������Ŀ�й���ְ���������£�<br>1���Խ��г���Ա��������Ʒ�г������ҵ������ȷ����Ʒ������ƽ̨ҵ������<br>2���Խ��û��������û����󣬻����û���ɫ����Ʋ�Ʒ���ܣ�ȷ��Ӧ��ϵͳʹ�ó�����<br>3������ϵͳ�ܹ���ƣ����Ƹ�Ҫ��ƺ���ϸ���˵���飬���в�Ʒ�Ŀ�����<br>4��ͨ����̳QQȺ�������Ѽ��û����������µ�����Ʒ��</td>
-</tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2014/7-2015/2</td>
-<td valign="top" class="rtbox">
-<strong>Ѷ�����뷨DMP��Ŀ</strong>&nbsp;<span class="guan">�ѹ���</span>
-</td>
-</tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">������˾��</td>
-<td valign="top" class="txt1">�ƴ�Ѷ�ɹɷ����޹�˾</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">��Ŀ������</td>
-<td valign="top" class="txt1">Ѷ�����뷨DMPƽ̨�������뷨�Ӵ���û����ݿ��ǿ��Ĵ����ݷ���������ͨ�������û�ϲ������Ϊ��������Ե���Ŀ���������͹�����ݣ�ʵ�ֻ����û����ƶ�Ӫ����Ѷ�����뷨DMPƽ̨��2015������岢��Ѷ�ɿ���ƽ̨��</td>
-</tr></tbody></table></td></tr>
-<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td valign="top" class="keys">����������</td>
-<td valign="top" class="txt1">�����ڸ���Ŀ����������������ʦ��ְλ����Ҫ�����ǻ������е�ƽ̨��д���빹��ѧϰģ�͡���һ�߽Ӵ������û������˶Բ�Ʒ�ĸо����ܹ�ͨ���û�ʹ�ò�Ʒ�����ݣ���������Ʒ����ȱ�ݺ�������ƣ��γɷ���������Ʒ�顣����Ŀ�й���ְ���������£�<br>1��������Ʋ�������ƽ̨�����������ӿڣ�<br>2���ռ�ǰ���û��������󣬵�����Ʒ���󷽰���ƣ�<br>3�����ͻ��������ṩ���Ի��������������</td>
-</tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-</table></td></tr>
-</tbody></table>
-<table xmlns="" class="box"><tbody>
-<tr><td class="plate1">��������</td></tr>
-<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr>
-<td valign="top" class="time">2010/9-2014/6</td>
-<td valign="top" class="rtbox"><strong>����ũҵ��ѧ</strong></td>
-</tr>
-<tr><td class="tb1" colspan="2">����<span class="p5">|</span>���������</td></tr>
-</tbody></table></td></tr></table></td></tr>
-</tbody></table>
-<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
-<tr><td class="plate1">
-              �����س�
-              <span class="f12">������IT���ܡ�����������֤�顢�ɼ�����ѵ������</span>
-</td></tr>
-<tr><td class="tbb"><table cellspacing="0" cellpadding="0" border="0"><tbody>
-<tr><td class="tit">����/����</td></tr>
-<tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">MS&#x20;WORD</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td>
-<td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">Axure</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td></tr><tr><td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">Java</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td>
-<td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">MS&#x20;Powerpoint</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td></tr><tr><td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">���ݷ���</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td>
-<td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">MS&#x20;Project</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td></tr><tr><td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">MS&#x20;VISIO</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td>
-<td class="tb2 cell sl" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
-<td class="skill"><strong class="txt3">MS&#x20;Excel</strong></td>
-<td valign="top"><span class="skbg"><span class="skco">����</span></span></td>
-</tr></tbody></table></td></tr></tbody></table></td></tr>
-</tbody></table></td></tr>
-</tbody></table></td></tr></tbody></table></body></html>
+</table>
+</body>
+</html>
